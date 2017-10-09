@@ -1,0 +1,35 @@
+disabled_rules:
+    - line_length
+
+opt_in_rules:
+    - attributes
+    - closing_brace
+    - closure_end_indentation
+    - closure_spacing
+    - conditional_returns_on_newline
+    - empty_count
+    - explicit_init
+    - fatal_error_message
+    - force_try
+    - nimble_operator
+    - number_separator
+    - object_literal
+    - opening_brace
+    - operator_usage_whitespace
+    - overridden_super_call
+    - private_outlet
+    - prohibited_super_call
+    - redundant_nil_coalescing
+    - return_arrow_whitespace
+    - sorted_imports
+    - statement_position
+    - switch_case_on_newline
+    - syntactic_sugar
+    - trailing_semicolon
+    - vertical_whitespace
+
+excluded:
+    - Pods
+    - Carthage
+    - Kidslox/CoreData/Machine
+    - Kidslox WatchKit Extension/CoreData/Machine
