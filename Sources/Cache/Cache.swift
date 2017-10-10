@@ -61,7 +61,7 @@ open class Cache<KeyType: Hashable, ObjectType : Any> {
         setObject(obj, forKey: key, cost: 0)
     }
 
-    subscript(key: KeyType) -> ObjectType? {
+    open subscript(key: KeyType) -> ObjectType? {
         get {
             return object(forKey: key)
         }
